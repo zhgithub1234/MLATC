@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+keras
+matplotlib
+seaborn
+hyperopt
+tensorflow-gpu
+tensorboard
+tensorflow-estimator
+python>=3.6
