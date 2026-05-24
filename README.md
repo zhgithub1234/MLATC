@@ -38,7 +38,6 @@ MLATC/
 |   `-- LRTC_TNN/LRTC_TNN.py
 |-- experiments/
 |   |-- get_all_results_for_all_models.py
-|   |-- mlatc_imputation_accuracy_tables.py
 |   |-- reproduce_mlatc_best_results.py
 |   |-- optimize_mlatc_parameters_rs_tpe.py
 |   |-- optimize_mlatc_parameters_gatpe.py
@@ -68,7 +67,6 @@ MLATC/
 - models/mlatc.py: MLATC model implementation.
 - models/mlatc_multi_mode.py: MLATC-Multi-mode model implementation.
 - experiments/get_all_results_for_all_models.py: grid-search experiments for MLATC and baselines.
-- experiments/mlatc_imputation_accuracy_tables.py: runs MLATC with fixed best parameters and saves reproducibility parameter packages.
 - experiments/reproduce_mlatc_best_results.py: reloads saved `.npy` parameter packages and reproduces MLATC results.
 - experiments/optimize_mlatc_parameters_rs_tpe.py: MLATC parameter optimization with RS and TPE.
 - experiments/optimize_mlatc_parameters_gatpe.py: MLATC parameter optimization with GA-TPE.
